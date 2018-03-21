@@ -29,11 +29,6 @@ namespace WpfApplication1
         {
 
             List<Employee> _Emps = null;
-
-            var emp = new Employee();
-
-            object obj = emp;
-
             _Emps = new List<Employee>()
             {
                 new Employee() { FirstName = "Scooby", LastName = "Doo", ID = 1, Position="Dog", ImageFile = "Images/Scooby.jpg" },

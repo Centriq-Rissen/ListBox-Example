@@ -66,9 +66,5 @@ namespace WpfApplication1
             get { return _TerminationDate; }
             set { _TerminationDate = value; }
         }
-        public override string ToString()
-        {
-            return FirstName + " " + LastName;
-        }
     }
 }
